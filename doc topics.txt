@@ -1,0 +1,24 @@
+1. Prerequisites (JavaScript knowledge, Discord bot setup)
+2. Making a basic command handler
+   - Explanation of the execution flow (receiving event -> running command -> handling events)
+   - Command options
+     - Default options
+   - Constructor parameters note
+   - How to create dynamic (per-guild) prefix with the handler
+   - Integrate with EventHandler
+   - Creating owner-only commands (with client access)
+   - Using custom run() method props
+   - Creating an error handler for message execution
+     - Error codes of CommandExecutionError for making custom messages
+   - Custom user id cooldown bypass (soon)
+3. Making a basic interaction handler
+   - Interaction options
+   - Differences between command interactions and context menu interactions
+4. Making a basic event handler
+   - Integrating with CommandHandler and InteractionHandler
+5. Troubleshooting
+   - No commands/interactions/events are being loaded despite the files being created
+6. Utility
+   - Pagination
+   - truncateString and truncateArray
+   - toReadablePermission
